@@ -8,7 +8,39 @@
 }
 
 body{
-    background-color: palevioletred;
+    background-color: rgb(255, 255, 255);
     padding: 0px;
     margin: 0px;
+}
+
+.card_parte1 .card img{
+    width: 200px;
+}  
+
+#carousel_1{
+    background-image: url(./fondo_carousel.png);
+    background-repeat: no-repeat;
+}
+
+.carousel-item img{
+    margin: 0px auto;
+}
+
+.seccion_central{
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: 'albramedium';
+    margin: 2em 0;
+    line-height: 0;
+}
+
+.seccion_central:before {
+    content: " ";
+    display: block;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #f7f7f7;
+}
+.seccion_central span {
+    background-color: white;
 }
