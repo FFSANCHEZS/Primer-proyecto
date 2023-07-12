@@ -8,7 +8,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="./style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./logo.jpeg"> <!-- icono en el titulo -->
-    <title>TÉ EMCANTA</title>
+    <title>TÉ ENCANTA</title>
 </head>
 
 <body>
@@ -43,22 +43,22 @@
     </header>
     <main>
         <section>
-            <div class="seccion_principal">
-                <div class="row">
+            <div class="row">
+                <div class="col-6 pt-5 ps-5 fondo_rosado">
                     <div class="col-xl-10">
-                        <p class="bd-lead mt-5">Acompaña esos momentos de fríos con una rica taza de TÉ ENCANTA y
-                            descubre la
-                            colección especial de variedades otoñales que tenemos para ti.</p>
+                        <p class="bd-lead mt-5 fs-1 text-white texto_fondo_rosado">Acompaña esos momentos de fríos con una rica taza de TÉ ENCANTA y descubre la colección especial de variedades otoñales que tenemos para ti.</p>
                     </div>
+                    <form class="row g-3">
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="email_contacto" value="Email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">Contacto</button>
+                        </div>
+                    </form>
                 </div>
-                <form class="row g-3">
-                    <div class="col-auto">
-                        <input type="text" class="form-control" id="email_contacto" value="Email">
-                    </div>
-                    <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-3">Contacto</button>
-                    </div>
-                </form>
+                <div class="col-6 seccion_principal">
+                </div>
             </div>
         </section>
         <section id="carousel_1">
@@ -70,36 +70,60 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./carrusel/Pu Erh Naranja Chip.webp" class="d-block w-25" alt="Pu Erh Naranja Chip">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Pu Erh Naranja Chip</h5>
-                            <p>Uno de los Tés más populares! Una combinación de Té Pu Erh con cáscara de naranja y granos de cacao.</p>
+                        <div lass="row">
+                            <div class="col-8">
+                                <img src="./carrusel/Pu Erh Naranja Chip.webp" class="d-block w-25"
+                                    alt="Pu Erh Naranja Chip">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pu Erh Naranja Chip</h5>
+                                <p class="text_carrusel">Uno de los Tés más populares! Una combinación de Té Pu Erh con cáscara de naranja y granos de cacao.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./carrusel/6 Pomos Iman Tea Colours.webp" class="d-block w-25" alt="6 Pomos Iman Tea Colours">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>6 Pomos Iman Tea Colours</h5>
-                            <p>Nuestro Pack 6 Pomos Tea Colours contiene seis variedades de los diferentes colores del té.</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="./carrusel/6 Pomos Iman Tea Colours.webp" class="d-block w-25"
+                                    alt="6 Pomos Iman Tea Colours">
+                            </div>
+                            <div class="col-4">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>6 Pomos Iman Tea Colours</h5>
+                                    <p class="text_carrusel">Nuestro Pack 6 Pomos Tea Colours contiene seis variedades de los diferentes colores del té.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./carrusel/Mug Bhoro Cerámica Flores Azul.webp" class="d-block w-25" alt="Mug Bhoro Cerámica Flores Azul">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Mug Bhoro Cerámica Flores Azul</h5>
-                            <p>Este Mug ha sido diseñado para preparar el té de una manera simple, útil y práctica.</p>
+                        <div class="col-8">
+                            <img src="./carrusel/Mug Bhoro Cerámica Flores Azul.webp" class="d-block w-25"
+                                alt="Mug Bhoro Cerámica Flores Azul">
+                        </div>
+                        <div class="col-4">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Mug Bhoro Cerámica Flores Azul</h5>
+                                <p class="text_carrusel">Este Mug ha sido diseñado para preparar el té de una manera simple, útil y práctica.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./carrusel/Taza Doble Vidrio Flores Colores.webp" class="d-block w-25" alt="Taza Doble Vidrio Flores Colores">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Taza Doble Vidrio Flores Colores</h5>
-                            <p>Colecciona la primavera!¡Tu accesorio perfecto ha llegado!</p>
+                        <div class="col-8">
+                            <img src="./carrusel/Taza Doble Vidrio Flores Colores.webp" class="d-block w-25"
+                                alt="Taza Doble Vidrio Flores Colores">
+                        </div>
+                        <div class="col-4">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Taza Doble Vidrio Flores Colores</h5>
+                                <p class="text_carrusel">Colecciona la primavera!¡Tu accesorio perfecto ha llegado!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
