@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 .seccion_principal{
-    background-image: url(./imagen_central.jpeg);
+    background-image: url(./imagen_final4.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 80vh; /* vh es % de la altura de la ventana gráfica */
+    height: 90vh; /* vh es % de la altura de la ventana gráfica */
     padding: 0px 200px;
     /* width: 100%; */
     font-family: Arial, Helvetica, sans-serif;
@@ -14,10 +14,21 @@
 }
 
 .fondo_rosado{
-    background-color: pink;
+    background-color: #ff73a0;
+    color: #ffffff;
 }
 
-.texto_fondo_rosado{
+.texto_verde{
+    font-family: 'Oswald', sans-serif;
+    color: #1ba7a2;
+}
+
+.fondo_rosado{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.texto_fondo_amarillo{
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
@@ -30,6 +41,7 @@ body{
 
 .card_parte1 .card img{
     width: 200px;
+    margin: 0px auto;
 }  
 
 #carousel_1{
@@ -63,3 +75,15 @@ body{
 .w-25 {
     width: 25%!important;
 }
+
+.seccion_final{
+    background-image: url(./imagen_central.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    height: 100vh; /* vh es % de la altura de la ventana gráfica */
+    /* padding: 0px 100px; */
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 60px; */
+    text-align: center;
+    }
