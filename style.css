@@ -79,11 +79,15 @@ body{
 .seccion_final{
     background-image: url(./imagen_central.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 70%;
-    height: 100vh; /* vh es % de la altura de la ventana gráfica */
+    background-size: cover;
+    height: 50vh; /* vh es % de la altura de la ventana gráfica */
     /* padding: 0px 100px; */
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     /* font-size: 60px; */
     text-align: center;
+    }
+
+    .logo_footer{
+        width: 40px;
     }
