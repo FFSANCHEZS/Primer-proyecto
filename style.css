@@ -4,8 +4,8 @@
     background-image: url(./imagen_final4.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 90vh; /* vh es % de la altura de la ventana gráfica */
-    padding: 0px 200px;
+    height: 75vh; /* vh es % de la altura de la ventana gráfica */
+    /* padding: 0px 200px; */
     /* width: 100%; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -47,6 +47,8 @@ body{
 #carousel_1{
     background-image: url(./fondo_carousel.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px 0px;
 }
 
 .carousel-item img{
@@ -80,7 +82,7 @@ body{
     background-image: url(./imagen_central.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh; /* vh es % de la altura de la ventana gráfica */
+    min-height: 50vh; /* vh es % de la altura de la ventana gráfica */
     /* padding: 0px 100px; */
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;

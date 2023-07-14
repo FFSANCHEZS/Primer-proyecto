@@ -18,8 +18,9 @@
                 <a class="navbar-brand" href="#">
                     <img src="./logo2_te.png" alt="TÉ ENCANTA" height="70">
                 </a>
+                <!-- boton que aparece al modificar el tamaño de la pagina -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -44,13 +45,14 @@
     <main>
         <section>
             <div class="row">
-                <div class="col-5 pt-5 ps-5 fondo_rosado">
+                <!-- cold tamaño de cda columna (auto, es el tamaño de la columna automatico)-->
+                <div class="col-md-5 col-6 pt-5 ps-5 fondo_rosado"> 
                     <div class="col-xl-10">
                         <p class="bd-lead  fs-1 text-white texto_fondo_rosado">Acompaña esos momentos de fríos con
-                            una rica taza de TÉ ENCANTA y descubre la colección especial de variedades otoñales que
-                            tenemos para ti.</p>
+                            una rica taza de TÉ ENCANTA y descubre nuestra nueva colección.</p>
                     </div>
-                    <form class="row g-3">
+                    <!-- row, filas (cada fila tiene 12 columnas) -->
+                    <form class="row g-3 justify-content-md-center">
                         <div class="col-auto">
                             <input type="text" class="form-control" id="email_contacto" value="Email">
                         </div>
@@ -59,7 +61,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-7 seccion_principal">
+                <div class="col-md-7 col-6 seccion_principal">
                 </div>
             </div>
         </section>
@@ -70,7 +72,7 @@
                 </h2>
             </section>
             <div class="row g-4 justify-content-md-center">
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <div class="card shadow mb-5 bg-body-tertiary rounded">
                         <img src="./cajas de te/3 pomos Best Sellers.webp" class="card-img-top"
                             alt="3 pomos Best Sellers">
@@ -80,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <div class="card shadow mb-5 bg-body-tertiary rounded">
                         <img src="./mug/Mug Bhoro Aesthetic Flowers.webp" class="card-img-top"
                             alt="Mug Bhoro Aesthetic Flowers">
@@ -90,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <div class="card shadow mb-5 bg-body-tertiary rounded">
                         <img src="./mug/Mug Bhoro Aesthetic Flowers.webp" class="card-img-top"
                             alt="Mug Bhoro Aesthetic Flowers">
@@ -102,7 +104,7 @@
                 </div>
             </div>
             <div class="row g-4 justify-content-md-center">
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <div class="card shadow mb-5 bg-body-tertiary rounded">
                         <img src="./mug/Mug Bhoro Aesthetic Flowers.webp" class="card-img-top"
                             alt="Mug Bhoro Aesthetic Flowers">
@@ -112,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <div class="card shadow mb-5 bg-body-tertiary rounded">
                         <img src="./mug/Mug Bhoro Aesthetic Flowers.webp" class="card-img-top"
                             alt="Mug Bhoro Aesthetic Flowers">
@@ -122,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <div class="card shadow mb-5 bg-body-tertiary rounded">
                         <img src="./tazas/Taza Doble Vidrio Estrellas Doradas.webp" class="card-img-top"
                             alt="Taza Doble Vidrio Estrellas Doradas">
@@ -135,6 +137,7 @@
             </div>
         </section>
         <section id="carousel_1">
+            <!-- botones parte de abajo que demuestra la cantida de fotos -->
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -148,61 +151,58 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div lass="row">
-                            <div class="col-8">
+                        <div class="row">
+                            <div class="col-5 text-center">
                                 <img src="./carrusel/Pu Erh Naranja Chip.webp" class="d-block w-25"
                                     alt="Pu Erh Naranja Chip">
                             </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Pu Erh Naranja Chip</h5>
-                                <p class="text_carrusel">Uno de los Tés más populares! Una combinación de Té Pu Erh con
+                            <div class="col-5 text-center">
+                                <h5 class="text-white">Pu Erh Naranja Chip</h5>
+                                <p class="text_carrusel text-white">Uno de los Tés más populares! Una combinación de Té Pu Erh con
                                     cáscara de naranja y granos de cacao.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-8">
+                            <div class="col-5 text-center">
                                 <img src="./carrusel/6 Pomos Iman Tea Colours.webp" class="d-block w-25"
                                     alt="6 Pomos Iman Tea Colours">
                             </div>
-                            <div class="col-4">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>6 Pomos Iman Tea Colours</h5>
-                                    <p class="text_carrusel">Nuestro Pack 6 Pomos Tea Colours contiene seis variedades
-                                        de los diferentes colores del té.</p>
-                                </div>
+                            <div class="col-5 text-center">
+                                <h5 class="text-white">6 Pomos Iman Tea Colours</h5>
+                                <p class="text_carrusel text-white">Nuestro Pack 6 Pomos Tea Colours contiene seis variedades
+                                    de los diferentes colores del té.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="col-8">
-                            <img src="./carrusel/Mug Bhoro Cerámica Flores Azul.webp" class="d-block w-25"
-                                alt="Mug Bhoro Cerámica Flores Azul">
-                        </div>
-                        <div class="col-4">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Mug Bhoro Cerámica Flores Azul</h5>
-                                <p class="text_carrusel">Este Mug ha sido diseñado para preparar el té de una manera
+                        <div class="row">
+                            <div class="col-5 text-center">
+                                <img src="./carrusel/Mug Bhoro Cerámica Flores Azul.webp" class="d-block w-25"
+                                    alt="Mug Bhoro Cerámica Flores Azul">
+                            </div>
+                            <div class="col-5 text-center">
+                                <h5 class="text-white">Mug Bhoro Cerámica Flores Azul</h5>
+                                <p class="text_carrusel text-white">Este Mug ha sido diseñado para preparar el té de una manera
                                     simple, útil y práctica.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="col-8">
-                            <img src="./carrusel/Taza Doble Vidrio Flores Colores.webp" class="d-block w-25"
-                                alt="Taza Doble Vidrio Flores Colores">
-                        </div>
-                        <div class="col-4">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Taza Doble Vidrio Flores Colores</h5>
-                                <p class="text_carrusel">Colecciona la primavera!¡Tu accesorio perfecto ha llegado!</p>
+                        <div class="row">
+                            <div class="col-5 text-center">
+                                <img src="./carrusel/Taza Doble Vidrio Flores Colores.webp" class="d-block w-25"
+                                    alt="Taza Doble Vidrio Flores Colores">
+                            </div>
+                            <div class="col-5 text-center">
+                                <h5 class="text-white">Taza Doble Vidrio Flores Colores</h5>
+                                <p class="text_carrusel text-white">Colecciona la primavera!¡Tu accesorio perfecto ha llegado!</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- botones para avanzar y retroceder -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -217,8 +217,8 @@
         </section>
         <section>
             <div class="seccion_final">
-                <p class="bd-lead mt-5 fs-1 texto_verde texto_fondo_amarillo">Conviértete en un TÉ ENCANTA lover</p>
-                <p class="bd-lead fs-1 text-white texto_fondo_amarillo">¡Sé el primero en enterarte de nuestros
+                <p class="mt-5 fs-1 texto_verde texto_fondo_amarillo">Conviértete en un TÉ ENCANTA lover</p>
+                <p class="fs-1 text-white texto_fondo_amarillo">¡Sé el primero en enterarte de nuestros
                     nuevos lanzamientos, promociones y sorpresas!</p>
                 <form class="row g-3 justify-content-md-center">
                     <div class="col-4">
@@ -241,7 +241,9 @@
                         <span class="fs-5">TÉ ENCANTA</span>
                     </a>
                     <ul class="list-unstyled small">
-                        <li class="mb-2">Hoy en día es posible encontrar en sus distintos canales de venta, toda clase de accesorios para preparar la taza perfecta de té, además de una gran cantidad y variedad de regalos.</li>
+                        <li class="mb-2">Hoy en día es posible encontrar en sus distintos canales de venta, toda clase
+                            de accesorios para preparar la taza perfecta de té, además de una gran cantidad y variedad
+                            de regalos.</li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 mb-3">
